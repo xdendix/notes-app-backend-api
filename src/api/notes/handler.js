@@ -82,7 +82,7 @@ class NotesHandler {
       // server Error
       const response = h.response({
         status: 'fail',
-        message: 'Maaf, terjadi kesalahan pada server kami.',
+        message: 'Maaf, terjadi kegagalan pada server kami.',
       });
       response.code(500);
       console.error(error);
@@ -114,7 +114,7 @@ class NotesHandler {
       // Server Error
       const response = h.response({
         status: 'error',
-        message: 'Maaf, terjadi kesalahan pada server kami.',
+        message: 'Maaf, terjadi kegagalan pada server kami.',
       });
       response.code(500);
       console.error(error);
@@ -144,7 +144,7 @@ class NotesHandler {
       // Server Error
       const response = h.response({
         status: 'error',
-        message: 'Maaf, terjadi kesalahan pada server kami.',
+        message: 'Maaf, terjadi kegagalan pada server kami.',
       });
       response.code(500);
       console.error(error);
