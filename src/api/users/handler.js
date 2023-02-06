@@ -61,11 +61,11 @@ class UsersHandler {
       };
     } catch (error) {
       if (error instanceof ClientError) {
-        const response = h.response({
+        const response = h.response({ 
           status: 'fail',
           message: error.message,
         });
-        response.code(error.statusCode );
+        response.code(error.statusCode);
         return response;
       }
 

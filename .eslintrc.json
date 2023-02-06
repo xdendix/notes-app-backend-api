@@ -13,6 +13,10 @@
     "no-console": "off",
     "camelcase": "off",
     "no-underscore-dangle": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "implicit-arrow-linebreak": "off",
+    "object-curly-newline": "off",
+    "no-debugger": "off",
+    "no-trailing-spaces": "off"
   }
 }
