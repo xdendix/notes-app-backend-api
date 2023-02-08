@@ -17,6 +17,7 @@
     "implicit-arrow-linebreak": "off",
     "object-curly-newline": "off",
     "no-debugger": "off",
-    "no-trailing-spaces": "off"
+    "no-trailing-spaces": "off",
+    "operator-linebreak": "off"
   }
 }
